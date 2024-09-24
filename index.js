@@ -23,6 +23,17 @@ delete fruits[3];
 // D. Add a new property `isGraduated` and set it to `true`.
 // E. Delete the `age` property from the object.
 // F. Log the updated student object.
+let student = {
+  name:"Laila",
+  age:17,
+  grade: "90",
+  favClass: "Journalism"
+}
+console.log(student.age)
+student.grade =90
+student.isGraduated= "true";
+delete student.age
+
 
 
 
