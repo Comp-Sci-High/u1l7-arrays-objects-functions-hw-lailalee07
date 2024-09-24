@@ -3,10 +3,15 @@
 
 // TASK 1: Arrays - Create, Read, Update, Delete (CRUD)
 // A. Create an array called `fruits` that contains: "apple", "banana", "cherry".
+let fruits =["apple","banana","cherry"]
 // B. Read (log) the second fruit in the array.
+console.log(fruits[1])
 // C. Update the third fruit to "orange".
+fruits[3]="orange"
 // D. Add a new fruit, "grape", to the end of the array.
+fruits.push("grapes")
 // E. Delete the last fruit in the array.
+delete fruits[3];
 // F. Log the updated array.
 
 
@@ -24,13 +29,17 @@
 // TASK 3: Functions - Create and Call Functions
 // A. Write a function called `calculateTotal` that takes two inputs: price and quantity.
 //    The function should return the total price by multiplying price by quantity.
-
+ function calculateTotal(price, quantity){
+   return price * quantity
+ }
 
 
 // B. Call the `calculateTotal` function 3 times and console log the outputs
+calculateTotal(20,5)
+console.log(calculateTotal(20,5))
 // First with the inputs 20 and 5
 // Second with the inputs 12 and 8
-// Third with the inputs 9 and 42
+// Third with the inputs 9 and 42n
 
 
 /*
