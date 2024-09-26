@@ -48,9 +48,14 @@ delete student.age
 // B. Call the `calculateTotal` function 3 times and console log the outputs
 calculateTotal(20,5)
 console.log(calculateTotal(20,5))
+calculateTotal(12,8)
+console.log(calculateTotal(12,8))
+calculateTotal(9,42)
+console.log(calculateTotal(9,42))
+
 // First with the inputs 20 and 5
 // Second with the inputs 12 and 8
-// Third with the inputs 9 and 42n
+// Third with the inputs 9 and 42
 
 
 /*
